@@ -1,0 +1,9 @@
+[submodule "service-tom"]
+	path = service-tom
+	url = https://github.com/hrr42-fec5/service-tom.git
+[submodule "service-allen"]
+	path = service-allen
+	url = https://github.com/hrr42-fec5/service-allen.git
+[submodule "service-camryn"]
+	path = service-camryn
+	url = https://github.com/hrr42-fec5/service-camryn.git

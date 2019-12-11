@@ -3,10 +3,12 @@ const path = require('path');
 module.exports = {
   mode: "production",
   entry: {
-
+    app1: './service-allen/client/index.jsx',
+    app2: './service-camryn/client/app.jsx',
+    app3: './service-tom/client/index.jsx'
   },
   output: {
-    filename: "bundle.js",
+    filename: "[name].js",
     path: path.resolve(__dirname, "public")
   },
   module: {
@@ -44,7 +46,7 @@ module.exports = {
   target: "web",
   devServer: {
     proxy: {
-      '/api': 'http://localhost:3000'
+      // '/api': 'http://localhost:3000'
     },
     // contentBase: path.join(__dirname, 'public'),
     // compress: true, // enable gzip compression
